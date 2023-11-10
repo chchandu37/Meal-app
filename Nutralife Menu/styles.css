@@ -1,0 +1,58 @@
+
+body {
+    background-color: grey; 
+}
+.container {
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-top: 20px;
+}
+#search-results .card {
+    margin-bottom: 20px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+#favourite-meals .list-group-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+#favourite-meals .list-group-item img {
+    margin-right: 10px;
+    max-width: 50px;
+    height: auto;
+}
+.btn-favorite {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-favorite:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+.btn-remove {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-remove:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+#search-results,
+#search-results .card {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+#favourite-meals {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    padding: 20px;
+}
